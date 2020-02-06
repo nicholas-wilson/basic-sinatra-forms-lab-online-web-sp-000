@@ -12,7 +12,7 @@ class App < Sinatra::Base
   end
 
   post '/newteam' do
-    raise params.inspect
+
     @name = params[:name]
     @coach = params[:coach]
     @pg = params[:pg]
